@@ -16,7 +16,7 @@ public class DFUKILLER {
      * @author KSmc_brigade
      * @reason to fabric version
      */
-    @Redirect(method = "create",at = @At(value = "NEW", target = "(I)Lcom/mojang/datafixers/DataFixerBuilder;"),remap = false)
+    @Redirect(method = "create",at = @At(value = "NEW", target = "(I)Lcom/mojang/datafixers/DataFixerBuilder;"))
     private static DataFixerBuilder create(int dataVersion){
         return new LazyDataFixerBuilder(dataVersion);
     }
