@@ -1,0 +1,2 @@
+accessWidener v2 named
+accessible method net/minecraft/server/world/ServerWorld getEntityLookup ()Lnet/minecraft/world/entity/EntityLookup;

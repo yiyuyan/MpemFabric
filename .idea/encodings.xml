@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/EntityTickHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/LazyDataFixerBuilder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/MpemMod.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/config/CoolConfig.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/mixin/ItemEntityMixin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/mixin/MixinBlockUpdatePacket.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/mixin/MixinBoat.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/mixin/SlotMixin.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/optimization/ChunkManager.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/optimization/EntityActivator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/optimization/EntityOptimizer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/optimization/MemoryCleaner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/util/EntityCleaner.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/net/shuyanmc/mpem/util/ThreadManager.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
