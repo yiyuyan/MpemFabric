@@ -26,6 +26,7 @@ public class CoolConfig {
     public static ForgeConfigSpec.BooleanValue showStackCount;
     public static final ForgeConfigSpec.BooleanValue ENABLED;
     public static final ForgeConfigSpec.IntValue MAX_STACK_SIZE;
+    //public static ForgeConfigSpec.BooleanValue MAX_INV_STACK_SIZE_SUPPORT;
 
     // ==================== 内存优化 | Memory Optimization ====================
     public static final ForgeConfigSpec.IntValue MEMORY_CLEAN_INTERVAL;

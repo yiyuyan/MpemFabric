@@ -63,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
 notificationDisplayTime:1.0
-mipmapLevels:4
+mipmapLevels:2
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1

@@ -1,4 +1,4 @@
-reload_resources_no_lag = false
+reload_resources_no_lag = true
 
 ["实体优化"]
 	#忽略已死亡的实体
@@ -14,7 +14,7 @@ reload_resources_no_lag = false
 
 ["物品实体"]
 	#优化物品实体tick
-	enable = false
+	enable = true
 
 ["袭击事件"]
 	#在袭击中保持袭击者tick
@@ -77,7 +77,7 @@ reload_resources_no_lag = false
 	listMode = 0
 	#合并物品的最大堆叠数量（0表示无限制,-1 表 原版逻辑）| Maximum stack size for merged items (0 = no limit)
 	#Range: > -1
-	maxStackSize = -1
+	maxStackSize = 0
 	#物品合并检测半径（单位：方块）| Item merge detection radius in blocks
 	#Range: 0.1 ~ 10.0
 	mergeDistance = 0.5
@@ -89,7 +89,7 @@ reload_resources_no_lag = false
 	[item_optimization.stack_size]
 		#最大物品堆叠大小 (1-9999) | Maximum item stack size (1-9999)
 		#Range: 1 ~ 9999
-		maxStackSize = 64
+		maxStackSize = 1
 		#启用自定义堆叠大小 | Enable custom stack sizes
 		enabled = true
 

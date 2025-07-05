@@ -5,6 +5,11 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [
     "BucketMixin",
+    "IInventoryMixin",
+    "ItemProMixin",
+    "MilkBucketMixin",
+    "NetworkHandlerMixin",
+    "PacketByteBufMixin",
     "SlotMixin"
   ],
   "server": [

@@ -8,6 +8,8 @@ import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.minecraft.client.gui.screen.option.VideoOptionsScreen;
 import net.minecraft.command.CommandRegistryAccess;
 import net.minecraft.entity.Entity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
@@ -26,6 +28,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.AbstractMap;
 import java.util.Collection;
+import java.util.Optional;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.atomic.AtomicBoolean;
 
@@ -107,8 +110,6 @@ public class MpemMod {
 				() -> new IExtensionPoint.DisplayTest(() -> "ANY", (remote, isServer) -> true)
 		);*/
 	}
-
-
 
 
 

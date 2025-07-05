@@ -16,7 +16,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class BucketMixin {
     @Inject(method = "getEmptiedStack",at = @At("HEAD"),cancellable = true)
     private static void get(ItemStack stack, PlayerEntity player, CallbackInfoReturnable<ItemStack> cir){
-        if(stack.getCount()>2){
+        if(stack.getCount()>=2){
             cir.setReturnValue(stack.copyWithCount(stack.getCount()-1));
             cir.cancel();
         }
@@ -25,7 +25,7 @@ public class BucketMixin {
     @Inject(method = "use",at = @At(value = "INVOKE", target = "Lnet/minecraft/util/TypedActionResult;success(Ljava/lang/Object;Z)Lnet/minecraft/util/TypedActionResult;",shift = At.Shift.BEFORE))
     private void use(World world, PlayerEntity user, Hand hand, CallbackInfoReturnable<TypedActionResult<ItemStack>> cir){
         ItemStack stack = user.getStackInHand(hand);
-        if(stack.getCount()>2){
+        if(!user.isCreative() && stack.getCount()>=2){
             user.giveItemStack(new ItemStack(Items.BUCKET));
         }
     }

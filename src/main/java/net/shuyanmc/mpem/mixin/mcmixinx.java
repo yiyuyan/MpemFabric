@@ -7,6 +7,8 @@ import net.minecraft.client.gui.screen.ingame.CraftingScreen;
 import net.minecraft.client.gui.screen.option.LanguageOptionsScreen;
 import net.minecraft.client.resource.language.LanguageManager;
 import net.minecraft.resource.ResourceManager;
+import net.minecraft.screen.slot.Slot;
+import net.shuyanmc.mpem.config.CoolConfig;
 import net.shuyanmc.mpem.flang;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Final;
@@ -34,6 +36,9 @@ public abstract class mcmixinx {
             flang.langReload = false;
             cir.setReturnValue(null);
             cir.cancel();
+        }
+        else{
+            CoolConfig.SPEC.afterReload();
         }
     }
 
