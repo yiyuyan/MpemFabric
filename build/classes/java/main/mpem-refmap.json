@@ -1,0 +1,120 @@
+{
+  "mappings": {
+    "net/shuyanmc/mpem/mixin/BucketMixin": {
+      "Lnet/minecraft/util/TypedActionResult;success(Ljava/lang/Object;Z)Lnet/minecraft/util/TypedActionResult;": "Lnet/minecraft/class_1271;method_29237(Ljava/lang/Object;Z)Lnet/minecraft/class_1271;",
+      "getEmptiedStack": "Lnet/minecraft/class_1755;method_7732(Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;",
+      "use": "Lnet/minecraft/class_1755;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+    },
+    "net/shuyanmc/mpem/mixin/DFUKILLER": {
+      "create": "Lnet/minecraft/class_3551;method_15471()Lcom/mojang/datafixers/DataFixerBuilder$Result;"
+    },
+    "net/shuyanmc/mpem/mixin/EntityRendererMixin": {
+      "Lnet/minecraft/client/render/entity/EntityRenderer;renderLabelIfPresent(Lnet/minecraft/entity/Entity;Lnet/minecraft/text/Text;Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;IF)V": "Lnet/minecraft/class_897;method_3926(Lnet/minecraft/class_1297;Lnet/minecraft/class_2561;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;IF)V",
+      "render": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "net/shuyanmc/mpem/mixin/InventoryMixin": {
+      "addStack(Lnet/minecraft/item/ItemStack;)I": "Lnet/minecraft/class_1661;method_7366(Lnet/minecraft/class_1799;)I"
+    },
+    "net/shuyanmc/mpem/mixin/ItemEntityMixin": {
+      "tick": "Lnet/minecraft/class_1542;method_5773()V"
+    },
+    "net/shuyanmc/mpem/mixin/ItemProMixin": {
+      "<init>": "Lnet/minecraft/class_1792$class_1793;<init>()V",
+      "maxCount": "Lnet/minecraft/class_1792$class_1793;method_7889(I)Lnet/minecraft/class_1792$class_1793;"
+    },
+    "net/shuyanmc/mpem/mixin/ItemStackMixin": {
+      "<init>*": "Lnet/minecraft/class_1799;<init>(Lnet/minecraft/class_1935;)V",
+      "getMaxCount": "Lnet/minecraft/class_1799;method_7914()I",
+      "isStackable": "Lnet/minecraft/class_1799;method_7946()Z"
+    },
+    "net/shuyanmc/mpem/mixin/LevelMixin": {
+      "tickEntity": "Lnet/minecraft/class_1937;method_18472(Ljava/util/function/Consumer;Lnet/minecraft/class_1297;)V"
+    },
+    "net/shuyanmc/mpem/mixin/MilkBucketMixin": {
+      "finishUsing": "Lnet/minecraft/class_1805;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
+    },
+    "net/shuyanmc/mpem/mixin/MixinBoat": {
+      "fall": "Lnet/minecraft/class_1690;method_5623(DZLnet/minecraft/class_2680;Lnet/minecraft/class_2338;)V"
+    },
+    "net/shuyanmc/mpem/mixin/MixinServerLevel": {
+      "tickChunk": "Lnet/minecraft/class_3218;method_18203(Lnet/minecraft/class_2818;I)V"
+    },
+    "net/shuyanmc/mpem/mixin/ResourceOverlayMixin": {
+      "Lnet/minecraft/client/gui/DrawContext;drawTexture(Lnet/minecraft/util/Identifier;IIIIFFIIII)V": "Lnet/minecraft/class_332;method_25293(Lnet/minecraft/class_2960;IIIIFFIIII)V",
+      "Lnet/minecraft/client/gui/DrawContext;fill(Lnet/minecraft/client/render/RenderLayer;IIIII)V": "Lnet/minecraft/class_332;method_51739(Lnet/minecraft/class_1921;IIIII)V",
+      "pausesGame": "Lnet/minecraft/class_425;method_18640()Z",
+      "render": "Lnet/minecraft/class_425;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "net/shuyanmc/mpem/mixin/SlotMixin": {
+      "tryTakeStackRange": "Lnet/minecraft/class_1735;method_34264(IILnet/minecraft/class_1657;)Ljava/util/Optional;"
+    },
+    "net/shuyanmc/mpem/mixin/mcmixinx": {
+      "reloadResources()Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_310;method_1521()Ljava/util/concurrent/CompletableFuture;",
+      "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V"
+    },
+    "net/shuyanmc/mpem/mixin/uimixin": {
+      "Lnet/minecraft/client/MinecraftClient;reloadResources()Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_310;method_1521()Ljava/util/concurrent/CompletableFuture;",
+      "onDone": "Lnet/minecraft/class_426;method_52184()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/shuyanmc/mpem/mixin/BucketMixin": {
+        "Lnet/minecraft/util/TypedActionResult;success(Ljava/lang/Object;Z)Lnet/minecraft/util/TypedActionResult;": "Lnet/minecraft/class_1271;method_29237(Ljava/lang/Object;Z)Lnet/minecraft/class_1271;",
+        "getEmptiedStack": "Lnet/minecraft/class_1755;method_7732(Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;)Lnet/minecraft/class_1799;",
+        "use": "Lnet/minecraft/class_1755;method_7836(Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;"
+      },
+      "net/shuyanmc/mpem/mixin/DFUKILLER": {
+        "create": "Lnet/minecraft/class_3551;method_15471()Lcom/mojang/datafixers/DataFixerBuilder$Result;"
+      },
+      "net/shuyanmc/mpem/mixin/EntityRendererMixin": {
+        "Lnet/minecraft/client/render/entity/EntityRenderer;renderLabelIfPresent(Lnet/minecraft/entity/Entity;Lnet/minecraft/text/Text;Lnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;IF)V": "Lnet/minecraft/class_897;method_3926(Lnet/minecraft/class_1297;Lnet/minecraft/class_2561;Lnet/minecraft/class_4587;Lnet/minecraft/class_4597;IF)V",
+        "render": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "net/shuyanmc/mpem/mixin/InventoryMixin": {
+        "addStack(Lnet/minecraft/item/ItemStack;)I": "Lnet/minecraft/class_1661;method_7366(Lnet/minecraft/class_1799;)I"
+      },
+      "net/shuyanmc/mpem/mixin/ItemEntityMixin": {
+        "tick": "Lnet/minecraft/class_1542;method_5773()V"
+      },
+      "net/shuyanmc/mpem/mixin/ItemProMixin": {
+        "<init>": "Lnet/minecraft/class_1792$class_1793;<init>()V",
+        "maxCount": "Lnet/minecraft/class_1792$class_1793;method_7889(I)Lnet/minecraft/class_1792$class_1793;"
+      },
+      "net/shuyanmc/mpem/mixin/ItemStackMixin": {
+        "<init>*": "Lnet/minecraft/class_1799;<init>(Lnet/minecraft/class_1935;)V",
+        "getMaxCount": "Lnet/minecraft/class_1799;method_7914()I",
+        "isStackable": "Lnet/minecraft/class_1799;method_7946()Z"
+      },
+      "net/shuyanmc/mpem/mixin/LevelMixin": {
+        "tickEntity": "Lnet/minecraft/class_1937;method_18472(Ljava/util/function/Consumer;Lnet/minecraft/class_1297;)V"
+      },
+      "net/shuyanmc/mpem/mixin/MilkBucketMixin": {
+        "finishUsing": "Lnet/minecraft/class_1805;method_7861(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;)Lnet/minecraft/class_1799;"
+      },
+      "net/shuyanmc/mpem/mixin/MixinBoat": {
+        "fall": "Lnet/minecraft/class_1690;method_5623(DZLnet/minecraft/class_2680;Lnet/minecraft/class_2338;)V"
+      },
+      "net/shuyanmc/mpem/mixin/MixinServerLevel": {
+        "tickChunk": "Lnet/minecraft/class_3218;method_18203(Lnet/minecraft/class_2818;I)V"
+      },
+      "net/shuyanmc/mpem/mixin/ResourceOverlayMixin": {
+        "Lnet/minecraft/client/gui/DrawContext;drawTexture(Lnet/minecraft/util/Identifier;IIIIFFIIII)V": "Lnet/minecraft/class_332;method_25293(Lnet/minecraft/class_2960;IIIIFFIIII)V",
+        "Lnet/minecraft/client/gui/DrawContext;fill(Lnet/minecraft/client/render/RenderLayer;IIIII)V": "Lnet/minecraft/class_332;method_51739(Lnet/minecraft/class_1921;IIIII)V",
+        "pausesGame": "Lnet/minecraft/class_425;method_18640()Z",
+        "render": "Lnet/minecraft/class_425;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "net/shuyanmc/mpem/mixin/SlotMixin": {
+        "tryTakeStackRange": "Lnet/minecraft/class_1735;method_34264(IILnet/minecraft/class_1657;)Ljava/util/Optional;"
+      },
+      "net/shuyanmc/mpem/mixin/mcmixinx": {
+        "reloadResources()Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_310;method_1521()Ljava/util/concurrent/CompletableFuture;",
+        "setOverlay": "Lnet/minecraft/class_310;method_18502(Lnet/minecraft/class_4071;)V"
+      },
+      "net/shuyanmc/mpem/mixin/uimixin": {
+        "Lnet/minecraft/client/MinecraftClient;reloadResources()Ljava/util/concurrent/CompletableFuture;": "Lnet/minecraft/class_310;method_1521()Ljava/util/concurrent/CompletableFuture;",
+        "onDone": "Lnet/minecraft/class_426;method_52184()V"
+      }
+    }
+  }
+}

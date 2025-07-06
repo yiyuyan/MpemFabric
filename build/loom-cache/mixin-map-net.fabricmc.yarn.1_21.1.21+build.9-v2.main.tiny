@@ -1,0 +1,11 @@
+v1	named	intermediary
+FIELD	net/shuyanmc/mpem/mixin/BucketMixin	Lnet/minecraft/fluid/Fluid;	fluid	field_7905
+FIELD	net/shuyanmc/mpem/mixin/ItemStackMixin	I	count	field_8031
+FIELD	net/shuyanmc/mpem/mixin/ItemStackMixin	Lcom/mojang/serialization/Codec;	CODEC	field_24671
+FIELD	net/shuyanmc/mpem/mixin/mcmixinx	Lnet/minecraft/client/resource/language/LanguageManager;	languageManager	field_1717
+FIELD	net/shuyanmc/mpem/mixin/mcmixinx	Lnet/minecraft/client/gui/screen/Screen;	currentScreen	field_1755
+FIELD	net/shuyanmc/mpem/mixin/ResourceOverlayMixin	Z	reloading	field_18219
+METHOD	net/shuyanmc/mpem/mixin/IInventoryMixin	()I	getMaxCountPerStack	method_5444
+METHOD	net/shuyanmc/mpem/mixin/ItemProMixin	(Lnet/minecraft/component/ComponentType;Ljava/lang/Object;)Lnet/minecraft/item/Item$Settings;	component	method_57349
+METHOD	net/shuyanmc/mpem/mixin/ItemStackMixin	()Lnet/minecraft/item/Item;	getItem	method_7909
+METHOD	net/shuyanmc/mpem/mixin/mcmixinx	()Lnet/minecraft/resource/ResourceManager;	getResourceManager	method_1478

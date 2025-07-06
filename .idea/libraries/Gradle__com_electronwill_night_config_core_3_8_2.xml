@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.electronwill.night-config:core:3.8.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.electronwill.night-config" artifactId="core" version="3.8.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.8.2/94eee571e1524129804d08c75f6416a3be380ad4/core-3.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.8.2/aa38f89d7fbea0e25652ffd6b78aa9d8826929ae/core-3.8.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/com.electronwill.night-config/core/3.8.2/a10239f9272f4e33ef1995f01ccae5b0497a012b/core-3.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

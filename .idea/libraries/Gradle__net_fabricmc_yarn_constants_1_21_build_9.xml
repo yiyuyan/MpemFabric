@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: net.fabricmc:yarn:constants:1.21+build.9" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.fabricmc" artifactId="yarn" version="1.21+build.9" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../.gradle/caches/modules-2/files-2.1/net.fabricmc/yarn/1.21+build.9/2ad14aed781c4a73ed4dbb421966d408a0a06686/yarn-1.21+build.9-constants.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

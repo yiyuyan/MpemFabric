@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mpem",
+  "version": "2.1.3-mc1.21-fabric",
+  "name": "MPEMFabric",
+  "description": "MPEM Mod Forge 1.20.1 To Fabric 1.21.",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "accessWidener": "mpem.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shuyanmc.mpem.MpemModFabric"
+    ]
+  },
+  "mixins": [
+    "mpem.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": "*",
+    "minecraft": "1.21"
+  }
+}
