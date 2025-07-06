@@ -157,3 +157,15 @@ reload_resources_no_lag = false
 	modBlacklist = []
 	#启用严格的类存在检查 (推荐为稳定性) | Enable strict class existence checking (recommended for stability)
 	strictClassChecking = true
+
+["FPS Settings"]
+	#Enable FPS reduction when window is inactive
+	reduceFpsWhenInactive = true
+	#FPS limit when window is inactive (5-60)
+	#Range: 5 ~ 60
+	inactiveFpsLimit = 10
+	#Enable render distance reduction when window is inactive
+	reduceRenderDistanceWhenInactive = true
+	#Render distance when window is inactive (2-12)
+	#Range: 2 ~ 12
+	inactiveRenderDistance = 2

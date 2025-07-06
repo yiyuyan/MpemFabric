@@ -32,7 +32,9 @@
     "MixinBlockUpdatePacket",
     "MixinBoat",
     "ResourceOverlayMixin",
-    "uimixin"
+    "uimixin",
+    "client.MinecraftMixin",
+    "client.OptionsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
