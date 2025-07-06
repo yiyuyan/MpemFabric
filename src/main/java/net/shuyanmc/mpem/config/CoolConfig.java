@@ -86,8 +86,33 @@ public class CoolConfig {
     public static ForgeConfigSpec.ConfigValue<List<? extends String>> raidEntityWhitelist;
     public static ForgeConfigSpec.ConfigValue<List<? extends String>> itemWhitelist;
 
+    public static ForgeConfigSpec.BooleanValue REDUCE_FPS_WHEN_INACTIVE;
+    public static ForgeConfigSpec.IntValue INACTIVE_FPS_LIMIT;
+    public static ForgeConfigSpec.BooleanValue REDUCE_RENDER_DISTANCE_WHEN_INACTIVE;
+    public static ForgeConfigSpec.IntValue INACTIVE_RENDER_DISTANCE;
+
     public static ForgeConfigSpec.BooleanValue reloadResourcesAsync;
     static {
+        BUILDER.push("FPS Settings");
+
+        REDUCE_FPS_WHEN_INACTIVE = BUILDER
+                .comment("Enable FPS reduction when window is inactive")
+                .define("reduceFpsWhenInactive", true);
+
+        INACTIVE_FPS_LIMIT = BUILDER
+                .comment("FPS limit when window is inactive (5-60)")
+                .defineInRange("inactiveFpsLimit", 10, 5, 60);
+
+        REDUCE_RENDER_DISTANCE_WHEN_INACTIVE = BUILDER
+                .comment("Enable render distance reduction when window is inactive")
+                .define("reduceRenderDistanceWhenInactive", true);
+
+        INACTIVE_RENDER_DISTANCE = BUILDER
+                .comment("Render distance when window is inactive (2-12)")
+                .defineInRange("inactiveRenderDistance", 2, 2, 12);
+
+        BUILDER.pop();
+
         // 实体设置
         BUILDER.push("实体优化");
         optimizeEntities = BUILDER

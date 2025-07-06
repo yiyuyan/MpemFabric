@@ -158,3 +158,15 @@ reload_resources_no_lag = true
 	#支持通配符 (如 'net.minecraftforge.event.entity.living.*') | Supports wildcards (e.g. 'net.minecraftforge.event.entity.living.*')
 	classBlacklist = ["net.minecraftforge.event.TickEvent", "net.minecraftforge.event.level.LevelTickEvent", "net.minecraftforge.event.entity.living.*"]
 
+["FPS Settings"]
+	#Render distance when window is inactive (2-12)
+	#Range: 2 ~ 12
+	inactiveRenderDistance = 2
+	#Enable FPS reduction when window is inactive
+	reduceFpsWhenInactive = true
+	#Enable render distance reduction when window is inactive
+	reduceRenderDistanceWhenInactive = true
+	#FPS limit when window is inactive (5-60)
+	#Range: 5 ~ 60
+	inactiveFpsLimit = 10
+
